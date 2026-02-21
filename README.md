@@ -12,14 +12,17 @@ Claude Code plugin that triages unresolved GitLab MR review comments — analyze
 
 ## Install
 
+### Via marketplace (recommended)
+
 ```bash
-claude plugin install github:radzio/gitlab-review
+claude plugin marketplace add https://github.com/radzio/plugin-patisserie
+claude plugin install gitlab-review
 ```
 
-Or via the [Plugin Patisserie](https://github.com/radzio/plugin-patisserie) marketplace:
+### Standalone
 
 ```bash
-claude plugin install github:radzio/plugin-patisserie
+claude plugin add https://github.com/radzio/gitlab-review
 ```
 
 ## Usage
